@@ -1,8 +1,8 @@
 /**
-* Template Name: Selecao - v2.0.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+  <!-- =======================================================
+  * Project Name: EasyShop - v1.0.0
+  * Developer: RileyManda
+  ======================================================== -->
 */
 !(function($) {
   "use strict";

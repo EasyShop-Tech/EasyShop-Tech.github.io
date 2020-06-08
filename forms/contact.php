@@ -1,12 +1,11 @@
 <?php
-  $receiving_email_address = 'hello@easyshop.tech';
-
+  //Receiving email address
+  $receiving_email_address = 'rileymanda1@gmail.com';
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
   } else {
-    die( 'Unable send email(development in progress)');
+    die( 'Unable to send email,Something went wrong');
   }
-
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
@@ -15,15 +14,14 @@
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
 
-  //SMTP to send emails
-  /*
+  //SMTP credentials
+
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
+    'host' => 'localhost',
+    'username' => 'localhost',
+    'password' => '',
+    'port' => '8080'
   );
-  */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
