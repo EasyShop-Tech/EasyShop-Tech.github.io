@@ -1,5 +1,5 @@
 <?php
- 
+  //Receiving email address
   $receiving_email_address = 'rileymanda1@gmail.com';
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
