@@ -13,7 +13,7 @@
     right: -1rem;
     width: 4rem;
     height: 4rem;
-    
+    cursor: -webkit-grab; cursor: grab;
     background:  rgba(20, 21, 28, 0.6);;
     border-radius: 50%;
     background: rgba(20, 21, 28, 0.6);;
@@ -142,21 +142,27 @@
   .fab-action:hover {
     background-color: #F79420;
   }
-  
+    /* Question */
   .fab-wheel .fab-action-1 {
     right: -1rem;
     top: 0;
+    cursor: help;
   }
-  
+  /* Calls */
   .fab-wheel .fab-action-2 {
     right: 3.4rem;
     top: 0.5rem;
+    cursor: pointer;
   }
+    /* Chat bot */
   .fab-wheel .fab-action-3 {
     left: 0.5rem;
     bottom: 3.4rem;
+    cursor: pointer;
   }
+    /* Information */
   .fab-wheel .fab-action-4 {
     left: 0;
     bottom: -1rem;
+    cursor: pointer;
   }
