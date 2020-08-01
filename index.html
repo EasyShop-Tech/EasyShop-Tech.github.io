@@ -30,6 +30,7 @@
 
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
 <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'><link rel="stylesheet" href="./style.css"> -->
+<!-- <link href="assets/css/tooltip.css" rel="stylesheet"> -->
 </head>
 <body>  
   
@@ -629,20 +630,22 @@
       <span class="fab-dots fab-dots-2"></span>
       <span class="fab-dots fab-dots-3"></span>
     </label>
+   
     <div class="fab-wheel">
       <a class="fab-action fab-action-1">
         <i class="las la-question"></i>
         <!-- <i class="fas fa-question"></i> -->
       </a>
-      <a class="fab-action fab-action-2">
-        <i class="las la-phone" href="tel:+264 81 820 1694"></i>
-     
-        <!-- <i class="fas fa-phone"></i> -->
+      <a class="fab-action fab-action-2" href="tel:+264 81 820 1694">
+        <!-- <a href="tel:+264 81 820 1694"><i class="las la-phone"></i></a> -->
+        <i class="las la-phone"></i> 
       </a>
-          <a class="fab-action fab-action-3">
+      <!-- <div class="tool-tip" data-tooltip-title="Left tooltip" data-tooltip-position="left">   </div> -->
+          <a class="fab-action fab-action-3 tool-tip" data-tooltip-title="Coming Soon" data-tooltip-position="left">
         <i class="fas"><img src="./assets/img/team/bot_icon.png" alt="" class="img-fluid"></i>
         
       </a>
+ 
           <a class="fab-action fab-action-4">
         <i class="las la-info"></i>
       </a>
