@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: #2a2c39e6;
 }
 
 #header.header-transparent {
@@ -270,7 +270,7 @@ z
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #2a2c39;
+  color: #ffffff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
